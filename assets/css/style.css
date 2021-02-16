@@ -284,11 +284,11 @@ body {
 
 @media screen and (max-width:768px) {
     .main-header {
-        grid-template-columns: 150px 220px;
+        grid-template-columns: 120px 200px;
         justify-content: space-between;
     }
     .container {
-        grid-template-columns: repeat(auto-fill, 220px);
+        grid-template-columns: repeat(auto-fill, 150px);
     }
     .header-profile .search-display {
         display: block;
@@ -296,6 +296,12 @@ body {
     .header-search,
     .header-initial-three,
     .header-initial-four {
+        display: none;
+    }
+    .main-header .header-profile span {
+        padding: 5px;
+    }
+    .card-hover {
         display: none;
     }
 }
