@@ -4,7 +4,7 @@ Esta proyecto usa la API de **[Lorem Picsum](https://picsum.photos/)**, consumie
 
 ### Demo :computer:
 
-Pulsa aqui para ver el **Demo**
+Pulsa aqui para ver el **[Demo](https://cesarchoqueskater.github.io/PinterestCloneWeb/)** 
 
 
 ### Configuración :wrench:
@@ -19,4 +19,4 @@ const arraySize = 'cantidad de Imagenes'
   
 
 >**Nota** :eyes:
-En sta aplicacion usamos iconos del sitio [material.io](https://material.io/) :framed_picture:
+En esta aplicación usamos iconos del sitio [material.io](https://material.io/) :framed_picture:

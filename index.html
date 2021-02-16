@@ -16,15 +16,15 @@
     <header>
         <div class="main-header">
             <div class="header-inicio">
-                <span>
+                <span class="header-initial-one">
                     <img src="assets/img/pinterest-icon.png" alt="pinterest-logo" class="pinterest-logo">
                 </span>
-                <span>Inicio</span>
-                <span>Hoy</span>
-                <span>Siguiendo</span>
+                <span class="header-initial-two">Inicio</span>
+                <span class="header-initial-three">Hoy</span>
+                <span class="header-initial-four">Siguiendo</span>
             </div>
             <div class="header-search">
-                <div class="input-search">
+                <div class="input-search a">
                     <span class='material-icons icon' id="search-icon-one">search</span>
                     <input id="search-icon-two" type="text" placeholder="Buscar" onclick="myFunction()">
                     <button class="btn-input-search" id="search-icon-three">
@@ -34,11 +34,12 @@
                 </div>
             </div>
             <div class="header-profile">
+                <span class='material-icons search-display'>search</span>
                 <span class='material-icons'>notifications</span>
                 <span class='material-icons'>chat</span>
                 <span class='material-icons'>account_circle</span>
                 <button>
-                    <span class='material-icons'>keyboard_arrow_down</span>
+                    <span class='material-icons icon-arrow'>keyboard_arrow_down</span>
                 </button>
             </div>
         </div>
@@ -46,13 +47,6 @@
 
     <div class="container"></div>
     <script type="text/javascript" src="assets/js/picsum.js"></script>
-    <script type="text/javascript">
-        function myFunction() {
-            document.getElementById('search-icon-one').classList.add('input-search-display');
-            document.getElementById('search-icon-three').classList.add('input-search-display');
-            document.getElementById('search-icon-two').classList.add('search');
-        }
-    </script>
 </body>
 
 </html>

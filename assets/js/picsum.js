@@ -33,3 +33,23 @@ for (let i = 0; i < arraySize; i++) {
             console.log(err);
         });
 }
+
+function myFunction() {
+    document.getElementById('search-icon-one').classList.add('input-search-display');
+    document.getElementById('search-icon-three').classList.add('input-search-display');
+    document.getElementById('search-icon-two').classList.add('search');
+}
+
+var iconOne = document.getElementById("search-icon-one");
+var iconTwo = document.getElementById("search-icon-two");
+var iconThree = document.getElementById("search-icon-three");
+// Detect all clicks on the document
+document.addEventListener("click", function(event) {
+    // If user clicks inside the element, do nothing
+    if (event.target.closest(".input-search")) return;
+
+    // If user clicks outside the element, hide it!
+    iconOne.classList.remove("input-search-display");
+    iconTwo.classList.remove("search");
+    iconThree.classList.remove("input-search-display");
+});

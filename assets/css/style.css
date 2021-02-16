@@ -4,8 +4,8 @@ body {
 
 .main-header {
     display: grid;
-    grid-template-columns: 320px 1fr 180px;
-    margin-top: 20px;
+    grid-template-columns: 300px 1fr 200px;
+    margin-top: 10px;
     height: 50px;
     justify-items: center;
     align-items: center;
@@ -63,6 +63,15 @@ body {
     margin: 0 1px;
     padding: 10px;
     border-radius: 3em;
+}
+
+.main-header .header-profile .material-icons {
+    font-size: 28px !important;
+}
+
+.main-header .header-profile .icon-arrow {
+    font-size: 20px !important;
+    padding: 5px !important;
 }
 
 .main-header .header-inicio span:first-child {
@@ -267,4 +276,26 @@ body {
 .search {
     border-radius: 3em;
     outline-width: 0 !important;
+}
+
+.header-profile .search-display {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .main-header {
+        grid-template-columns: 150px 220px;
+        justify-content: space-between;
+    }
+    .container {
+        grid-template-columns: repeat(auto-fill, 220px);
+    }
+    .header-profile .search-display {
+        display: block;
+    }
+    .header-search,
+    .header-initial-three,
+    .header-initial-four {
+        display: none;
+    }
 }
