@@ -34,7 +34,7 @@ for (let i = 0; i < arraySize; i++) {
         });
 }
 
-function myFunction() {
+function inputSelectSearch() {
     document.getElementById('search-icon-one').classList.add('input-search-display');
     document.getElementById('search-icon-three').classList.add('input-search-display');
     document.getElementById('search-icon-two').classList.add('search');

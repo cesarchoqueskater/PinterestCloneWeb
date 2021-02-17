@@ -26,7 +26,7 @@
             <div class="header-search">
                 <div class="input-search">
                     <span class='material-icons icon' id="search-icon-one">search</span>
-                    <input id="search-icon-two" type="text" placeholder="Buscar" onclick="myFunction()">
+                    <input id="search-icon-two" type="text" placeholder="Buscar" onclick="inputSelectSearch()">
                     <button class="btn-input-search" id="search-icon-three">
                         <span class="text-btn-search">Tus Pines</span>
                         <span class='material-icons i'>keyboard_arrow_down</span>
@@ -47,6 +47,17 @@
 
     <div class="container"></div>
     <script type="text/javascript" src="assets/js/picsum.js"></script>
+    <script type="text/javascript">
+        window.onscroll = function() {
+            var header = document.getElementsByTagName("header")[0];
+            var hightOffsetTop = header.offsetTop;
+            if (window.pageYOffset > hightOffsetTop) {
+                header.classList.add("header-box");
+            } else {
+                header.classList.remove("header-box");
+            }
+        };
+    </script>
 </body>
 
 </html>

@@ -2,6 +2,19 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    height: 83px;
+    z-index: 1000;
+}
+
+.header-box {
+    box-shadow: rgb(0 0 0 / 10%) 0px 8px 8px -8px;
+}
+
 .main-header {
     display: grid;
     grid-template-columns: 300px 1fr 200px;
@@ -149,7 +162,8 @@ body {
     grid-template-columns: repeat(auto-fill, 230px);
     grid-gap: 15px;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 90px;
+    position: relative;
 }
 
 .card {
