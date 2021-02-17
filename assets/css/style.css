@@ -305,3 +305,19 @@ body {
         display: none;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width:833px) {
+    .main-header {
+        grid-template-columns: 130px auto 180px;
+    }
+    .header-initial-three,
+    .header-initial-four {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 833px) and (max-width:992px) {
+    .main-header {
+        grid-template-columns: 270px 380px 180px;
+    }
+}
