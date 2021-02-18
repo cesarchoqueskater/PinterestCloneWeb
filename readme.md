@@ -6,6 +6,12 @@ Esta proyecto usa la API de **[Lorem Picsum](https://picsum.photos/)**, consumie
 
 Pulsa aqui para ver el **[Demo](https://cesarchoqueskater.github.io/PinterestCloneWeb/)** 
 
+### Imagenes :camera:
+
+[<img src="screenshots/ImageScreen.png"/>](screenshots/ImageScreen.png)
+
+
+[<img src="screenshots/ImageScreen_two.png"/>](screenshots/ImageScreen_two.png)
 
 ### Configuración :wrench:
 En el archivo picsum.js seteamos un valor por defecto, que indica la cantidad de imagenes que obtendremos del API.
