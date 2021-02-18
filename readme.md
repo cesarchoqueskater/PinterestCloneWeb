@@ -8,7 +8,7 @@ Pulsa aqui para ver el **[Demo](https://cesarchoqueskater.github.io/PinterestClo
 
 ### Imagenes :camera:
 
-[<img src="screenshots/ImageScreen.png"/>](screenshots/ImageScreen.png)
+[<img src="screenshots/ImageScreen.png" width="95%"/>](screenshots/ImageScreen.png)
 
 
 [<img src="screenshots/ImageScreen_two.png"/>](screenshots/ImageScreen_two.png)
