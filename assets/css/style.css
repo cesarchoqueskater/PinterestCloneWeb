@@ -52,7 +52,17 @@ header {
     flex: 1;
 }
 
-.header-search input:hover {
+.input-search:hover #search-icon-one {
+    outline: none;
+    background: #ddd;
+}
+
+.input-search:hover #search-icon-two {
+    outline: none;
+    background: #ddd;
+}
+
+.input-search:hover #search-icon-three {
     outline: none;
     background: #ddd;
 }
@@ -296,13 +306,48 @@ header {
     display: none;
 }
 
+.footerButton {
+    position: fixed;
+    display: inline-grid;
+    bottom: 0;
+    right: 0;
+    padding: 20px 25px;
+}
+
+.roundedButton {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 0px 8px);
+    margin: 4px;
+}
+
+.roundedButton:hover {
+    background: #efefef;
+}
+
+.roundedButton .material-icons {
+    font-size: 28px !important;
+}
+
+@media screen and (max-width:500px) {
+    .card-hover {
+        display: none;
+    }
+}
+
 @media screen and (max-width:768px) {
     .main-header {
         grid-template-columns: 120px 200px;
         justify-content: space-between;
     }
     .container {
-        grid-template-columns: repeat(auto-fill, 150px);
+        grid-template-columns: repeat(2, minmax(150px, 236px));
     }
     .header-profile .search-display {
         display: block;
@@ -314,9 +359,6 @@ header {
     }
     .main-header .header-profile span {
         padding: 5px;
-    }
-    .card-hover {
-        display: none;
     }
 }
 

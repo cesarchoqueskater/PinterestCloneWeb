@@ -1,6 +1,6 @@
 # Proyecto Pinterest Clone Web
 
-Esta proyecto usa la API de **[Lorem Picsum](https://picsum.photos/)**, consumiendola desde JS, usando CSS Grid Layout junto a HTML :computer: para hacer el layout de Pinterest :fire:
+Este proyecto usa la API de **[Lorem Picsum](https://picsum.photos/)**, consumiendola desde JS, usando CSS Grid Layout junto a HTML :computer: para hacer el layout de Pinterest :fire:
 
 ### Demo :computer:
 
